@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(214, 214, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleLogin{
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    width: 20.5%;
+    border: none;
+    font-size: 15px;
+}
+.manualLogin{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 18%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-self: center;
+}
+
+.manualLogin label{
+    text-align: left;
+    margin: 10px;
+}
+
+.manualLogin input{
+    margin: 10px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+.manualLogin button{
+    padding: 10px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(68,178,229);
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.manualLogin button:hover{
+    background-color: white;
+    color:  rgb(68,178,229);
+    border: 2px solid  rgb(68,178,229);
+}
+
+.signUpLink{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.signUpLink a{
+    color: rgb(32, 101, 228);
+    font-weight: bold;    
+}
